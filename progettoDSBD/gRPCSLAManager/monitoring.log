@@ -1,0 +1,195 @@
+2023-01-10 12:31:15,417 - timeExecution - INFO - Processamento dati ad 1h: 1.986870
+2023-01-10 12:31:15,419 - timeExecution - INFO - Processamento dati a 3h: 4.814099
+2023-01-10 12:31:15,419 - timeExecution - INFO - Processamento dati a 12h: 14.746486
+2023-01-10 12:31:15,419 - timeExecution - INFO - Processamento predizione: 13.729720
+2023-01-10 12:31:15,420 - timeExecution - INFO - Processamento metadati: 26.512446
+2023-01-10 12:35:54,017 - timeExecution - INFO - Processamento dati ad 1h: 1.895576
+2023-01-10 12:35:54,020 - timeExecution - INFO - Processamento dati a 3h: 9.014471
+2023-01-10 12:35:54,020 - timeExecution - INFO - Processamento dati a 12h: 23.071921
+2023-01-10 12:35:54,020 - timeExecution - INFO - Processamento predizione: 12.736401
+2023-01-10 12:35:54,020 - timeExecution - INFO - Processamento metadati: 0.542355
+2023-01-10 12:42:59,096 - timeExecution - INFO - Processamento dati ad 1h: 1.998315
+2023-01-10 12:42:59,099 - timeExecution - INFO - Processamento dati a 3h: 4.989357
+2023-01-10 12:42:59,100 - timeExecution - INFO - Processamento dati a 12h: 15.451253
+2023-01-10 12:42:59,100 - timeExecution - INFO - Processamento predizione: 11.744563
+2023-01-10 12:42:59,100 - timeExecution - INFO - Processamento metadati: 0.393325
+2023-01-10 12:51:06,220 - timeExecution - INFO - Processamento dati ad 1h: 5.169672
+2023-01-10 12:51:06,228 - timeExecution - INFO - Processamento dati a 3h: 6.294964
+2023-01-10 12:51:06,228 - timeExecution - INFO - Processamento dati a 12h: 15.845210
+2023-01-10 12:51:06,229 - timeExecution - INFO - Processamento predizione: 13.405808
+2023-01-10 12:51:06,229 - timeExecution - INFO - Processamento metadati: 92.732336
+2023-01-10 13:04:07,100 - timeExecution - INFO - Processamento dati ad 1h: 3.538492
+2023-01-10 13:04:07,102 - timeExecution - INFO - Processamento dati a 3h: 6.370599
+2023-01-10 13:04:07,102 - timeExecution - INFO - Processamento dati a 12h: 17.965628
+2023-01-10 13:04:07,102 - timeExecution - INFO - Processamento predizione: 13.244123
+2023-01-10 13:04:07,102 - timeExecution - INFO - Processamento metadati: 54.639481
+2023-01-10 13:16:19,684 - timeExecution - INFO - Processamento dati ad 1h: 2.161843
+2023-01-10 13:16:19,688 - timeExecution - INFO - Processamento dati a 3h: 5.639091
+2023-01-10 13:16:19,688 - timeExecution - INFO - Processamento dati a 12h: 17.338181
+2023-01-10 13:16:19,688 - timeExecution - INFO - Processamento predizione: 8.775744
+2023-01-10 13:16:19,689 - timeExecution - INFO - Processamento metadati: 58.817423
+2023-01-10 13:20:12,315 - timeExecution - INFO - Processamento dati ad 1h: 3.389953
+2023-01-10 13:20:12,334 - timeExecution - INFO - Processamento dati a 3h: 9.979822
+2023-01-10 13:20:12,334 - timeExecution - INFO - Processamento dati a 12h: 19.044594
+2023-01-10 13:20:12,335 - timeExecution - INFO - Processamento predizione: 11.379645
+2023-01-10 13:20:12,335 - timeExecution - INFO - Processamento metadati: 61.121259
+2023-01-10 18:15:17,220 - timeExecution - INFO - Processamento dati ad 1h: 2.125510
+2023-01-10 18:15:17,223 - timeExecution - INFO - Processamento dati a 3h: 4.710784
+2023-01-10 18:15:17,223 - timeExecution - INFO - Processamento dati a 12h: 17.793265
+2023-01-10 18:15:17,223 - timeExecution - INFO - Processamento predizione: 43.086564
+2023-01-10 18:15:17,223 - timeExecution - INFO - Processamento metadati: 142.037896
+2023-01-10 18:29:52,450 - timeExecution - INFO - Processamento dati ad 1h: 1.964678
+2023-01-10 18:29:52,455 - timeExecution - INFO - Processamento dati a 3h: 5.174569
+2023-01-10 18:29:52,456 - timeExecution - INFO - Processamento dati a 12h: 16.924809
+2023-01-10 18:29:52,456 - timeExecution - INFO - Processamento predizione: 11.184549
+2023-01-10 18:29:52,456 - timeExecution - INFO - Processamento metadati: 125.774287
+2023-01-11 09:22:51,635 - timeExecution - INFO - Processamento dati ad 1h: 1.263083
+2023-01-11 09:22:51,637 - timeExecution - INFO - Processamento dati a 3h: 2.438685
+2023-01-11 09:22:51,637 - timeExecution - INFO - Processamento dati a 12h: 8.793807
+2023-01-11 09:22:51,637 - timeExecution - INFO - Processamento predizione: 3.369692
+2023-01-11 09:22:51,637 - timeExecution - INFO - Processamento metadati: 10.923371
+2023-01-11 15:56:49,181 - timeExecution - INFO - Processamento dati ad 1h: 1.771186
+2023-01-11 15:56:49,187 - timeExecution - INFO - Processamento dati a 3h: 3.725726
+2023-01-11 15:56:49,188 - timeExecution - INFO - Processamento dati a 12h: 20.282591
+2023-01-11 15:56:49,188 - timeExecution - INFO - Processamento predizione: 7.578717
+2023-01-11 15:56:49,188 - timeExecution - INFO - Processamento metadati: 29.335089
+2023-01-11 15:58:39,635 - timeExecution - INFO - Processamento dati ad 1h: 1.462501
+2023-01-11 15:58:39,635 - timeExecution - INFO - Processamento dati ad 1h: 1.462501
+2023-01-11 15:58:39,635 - timeExecution - INFO - Processamento dati a 3h: 6.825231
+2023-01-11 15:58:39,635 - timeExecution - INFO - Processamento dati a 3h: 6.825231
+2023-01-11 15:58:39,635 - timeExecution - INFO - Processamento dati a 12h: 15.441389
+2023-01-11 15:58:39,635 - timeExecution - INFO - Processamento dati a 12h: 15.441389
+2023-01-11 15:58:39,636 - timeExecution - INFO - Processamento predizione: 6.406681
+2023-01-11 15:58:39,636 - timeExecution - INFO - Processamento predizione: 6.406681
+2023-01-11 15:58:39,636 - timeExecution - INFO - Processamento metadati: 25.840179
+2023-01-11 15:58:39,636 - timeExecution - INFO - Processamento metadati: 25.840179
+2023-01-11 16:07:27,488 - timeExecution - INFO - Processamento dati ad 1h: 1.614558
+2023-01-11 16:07:27,488 - timeExecution - INFO - Processamento dati ad 1h: 1.614558
+2023-01-11 16:07:27,488 - timeExecution - INFO - Processamento dati ad 1h: 1.614558
+2023-01-11 16:07:27,490 - timeExecution - INFO - Processamento dati a 3h: 5.354084
+2023-01-11 16:07:27,490 - timeExecution - INFO - Processamento dati a 3h: 5.354084
+2023-01-11 16:07:27,490 - timeExecution - INFO - Processamento dati a 3h: 5.354084
+2023-01-11 16:07:27,490 - timeExecution - INFO - Processamento dati a 12h: 19.880060
+2023-01-11 16:07:27,490 - timeExecution - INFO - Processamento dati a 12h: 19.880060
+2023-01-11 16:07:27,490 - timeExecution - INFO - Processamento dati a 12h: 19.880060
+2023-01-11 16:07:27,491 - timeExecution - INFO - Processamento predizione: 7.406218
+2023-01-11 16:07:27,491 - timeExecution - INFO - Processamento predizione: 7.406218
+2023-01-11 16:07:27,491 - timeExecution - INFO - Processamento predizione: 7.406218
+2023-01-11 16:07:27,495 - timeExecution - INFO - Processamento metadati: 34.984486
+2023-01-11 16:07:27,495 - timeExecution - INFO - Processamento metadati: 34.984486
+2023-01-11 16:07:27,495 - timeExecution - INFO - Processamento metadati: 34.984486
+2023-01-12 13:28:21,788 - timeExecution - INFO - Processamento dati ad 1h: 1.255607
+2023-01-12 13:28:21,790 - timeExecution - INFO - Processamento dati a 3h: 2.882276
+2023-01-12 13:28:21,790 - timeExecution - INFO - Processamento dati a 12h: 8.865102
+2023-01-12 13:28:21,790 - timeExecution - INFO - Processamento predizione: 4.614581
+2023-01-12 13:28:21,790 - timeExecution - INFO - Processamento metadati: 45.746699
+2023-01-12 16:48:48,619 - timeExecution - INFO - Processamento dati ad 1h: 1.656682
+2023-01-12 16:48:48,627 - timeExecution - INFO - Processamento dati a 3h: 9.813279
+2023-01-12 16:48:48,628 - timeExecution - INFO - Processamento dati a 12h: 40.151209
+2023-01-12 16:48:48,628 - timeExecution - INFO - Processamento predizione: 20.275924
+2023-01-12 16:48:48,628 - timeExecution - INFO - Processamento metadati: 266.628793
+2023-01-12 16:48:59,513 - timeExecution - INFO - Processamento dati ad 1h: 3.540557
+2023-01-12 16:48:59,513 - timeExecution - INFO - Processamento dati ad 1h: 3.540557
+2023-01-12 16:48:59,513 - timeExecution - INFO - Processamento dati a 3h: 11.353278
+2023-01-12 16:48:59,513 - timeExecution - INFO - Processamento dati a 3h: 11.353278
+2023-01-12 16:48:59,541 - timeExecution - INFO - Processamento dati a 12h: 40.479035
+2023-01-12 16:48:59,541 - timeExecution - INFO - Processamento dati a 12h: 40.479035
+2023-01-12 16:48:59,553 - timeExecution - INFO - Processamento predizione: 26.005515
+2023-01-12 16:48:59,553 - timeExecution - INFO - Processamento predizione: 26.005515
+2023-01-12 16:48:59,554 - timeExecution - INFO - Processamento metadati: 265.055317
+2023-01-12 16:48:59,554 - timeExecution - INFO - Processamento metadati: 265.055317
+2023-01-12 17:02:29,388 - timeExecution - INFO - Processamento dati ad 1h: 2.282448
+2023-01-12 17:02:29,391 - timeExecution - INFO - Processamento dati a 3h: 5.159529
+2023-01-12 17:02:29,391 - timeExecution - INFO - Processamento dati a 12h: 17.454817
+2023-01-12 17:02:29,391 - timeExecution - INFO - Processamento predizione: 11.958441
+2023-01-12 17:02:29,391 - timeExecution - INFO - Processamento metadati: 142.883361
+2023-01-12 17:06:30,794 - timeExecution - INFO - Processamento dati ad 1h: 2.679526
+2023-01-12 17:06:30,794 - timeExecution - INFO - Processamento dati ad 1h: 2.679526
+2023-01-12 17:06:30,798 - timeExecution - INFO - Processamento dati a 3h: 7.645501
+2023-01-12 17:06:30,798 - timeExecution - INFO - Processamento dati a 3h: 7.645501
+2023-01-12 17:06:30,798 - timeExecution - INFO - Processamento dati a 12h: 28.582102
+2023-01-12 17:06:30,798 - timeExecution - INFO - Processamento dati a 12h: 28.582102
+2023-01-12 17:06:30,800 - timeExecution - INFO - Processamento predizione: 20.122872
+2023-01-12 17:06:30,800 - timeExecution - INFO - Processamento predizione: 20.122872
+2023-01-12 17:06:30,800 - timeExecution - INFO - Processamento metadati: 167.808370
+2023-01-12 17:06:30,800 - timeExecution - INFO - Processamento metadati: 167.808370
+2023-01-14 09:40:32,279 - timeExecution - INFO - Processamento dati ad 1h: 0.784737
+2023-01-14 09:40:32,280 - timeExecution - INFO - Processamento dati a 3h: 2.204704
+2023-01-14 09:40:32,280 - timeExecution - INFO - Processamento dati a 12h: 9.542360
+2023-01-14 09:40:32,280 - timeExecution - INFO - Processamento predizione: 3.460171
+2023-01-14 09:40:32,280 - timeExecution - INFO - Processamento metadati: 0.638135
+2023-01-14 09:44:03,714 - timeExecution - INFO - Processamento dati ad 1h: 1.164491
+2023-01-14 09:44:03,714 - timeExecution - INFO - Processamento dati ad 1h: 1.164491
+2023-01-14 09:44:03,716 - timeExecution - INFO - Processamento dati a 3h: 3.597378
+2023-01-14 09:44:03,716 - timeExecution - INFO - Processamento dati a 3h: 3.597378
+2023-01-14 09:44:03,716 - timeExecution - INFO - Processamento dati a 12h: 25.275292
+2023-01-14 09:44:03,716 - timeExecution - INFO - Processamento dati a 12h: 25.275292
+2023-01-14 09:44:03,716 - timeExecution - INFO - Processamento predizione: 6.122505
+2023-01-14 09:44:03,716 - timeExecution - INFO - Processamento predizione: 6.122505
+2023-01-14 09:44:03,716 - timeExecution - INFO - Processamento metadati: 1.706171
+2023-01-14 09:44:03,716 - timeExecution - INFO - Processamento metadati: 1.706171
+2023-01-14 09:48:49,293 - timeExecution - INFO - Processamento dati ad 1h: 1.469993
+2023-01-14 09:48:49,293 - timeExecution - INFO - Processamento dati ad 1h: 1.469993
+2023-01-14 09:48:49,293 - timeExecution - INFO - Processamento dati ad 1h: 1.469993
+2023-01-14 09:48:49,294 - timeExecution - INFO - Processamento dati a 3h: 4.288990
+2023-01-14 09:48:49,294 - timeExecution - INFO - Processamento dati a 3h: 4.288990
+2023-01-14 09:48:49,294 - timeExecution - INFO - Processamento dati a 3h: 4.288990
+2023-01-14 09:48:49,294 - timeExecution - INFO - Processamento dati a 12h: 13.668087
+2023-01-14 09:48:49,294 - timeExecution - INFO - Processamento dati a 12h: 13.668087
+2023-01-14 09:48:49,294 - timeExecution - INFO - Processamento dati a 12h: 13.668087
+2023-01-14 09:48:49,295 - timeExecution - INFO - Processamento predizione: 4.395600
+2023-01-14 09:48:49,295 - timeExecution - INFO - Processamento predizione: 4.395600
+2023-01-14 09:48:49,295 - timeExecution - INFO - Processamento predizione: 4.395600
+2023-01-14 09:48:49,295 - timeExecution - INFO - Processamento metadati: 0.851883
+2023-01-14 09:48:49,295 - timeExecution - INFO - Processamento metadati: 0.851883
+2023-01-14 09:48:49,295 - timeExecution - INFO - Processamento metadati: 0.851883
+2023-01-14 17:13:21,559 - timeExecution - INFO - Processamento dati ad 1h: 1.893045
+2023-01-14 17:13:21,568 - timeExecution - INFO - Processamento dati a 3h: 4.407987
+2023-01-14 17:13:21,568 - timeExecution - INFO - Processamento dati a 12h: 17.558534
+2023-01-14 17:13:21,569 - timeExecution - INFO - Processamento predizione: 12.511153
+2023-01-14 17:13:21,569 - timeExecution - INFO - Processamento metadati: 59.834289
+2023-01-14 17:38:16,331 - timeExecution - INFO - Processamento dati ad 1h: 2.646206
+2023-01-14 17:38:16,342 - timeExecution - INFO - Processamento dati a 3h: 5.788978
+2023-01-14 17:38:16,342 - timeExecution - INFO - Processamento dati a 12h: 21.083645
+2023-01-14 17:38:16,343 - timeExecution - INFO - Processamento predizione: 24.817809
+2023-01-14 17:38:16,343 - timeExecution - INFO - Processamento metadati: 156.062341
+2023-01-15 12:43:43,344 - timeExecution - INFO - Processamento dati ad 1h: 1.099612
+2023-01-15 12:43:43,345 - timeExecution - INFO - Processamento dati a 3h: 2.184880
+2023-01-15 12:43:43,346 - timeExecution - INFO - Processamento dati a 12h: 8.526017
+2023-01-15 12:43:43,346 - timeExecution - INFO - Processamento predizione: 2.861417
+2023-01-15 12:43:43,346 - timeExecution - INFO - Processamento metadati: 0.136344
+2023-01-16 18:52:52,385 - timeExecution - INFO - Processamento dati ad 1h: 1.170717
+2023-01-16 18:52:52,388 - timeExecution - INFO - Processamento dati a 3h: 2.485087
+2023-01-16 18:52:52,388 - timeExecution - INFO - Processamento dati a 12h: 9.339584
+2023-01-16 18:52:52,388 - timeExecution - INFO - Processamento predizione: 3.124342
+2023-01-16 18:52:52,388 - timeExecution - INFO - Processamento metadati: 0.915195
+2023-01-22 17:01:11,367 - timeExecution - INFO - Processamento dati ad 1h: 1.248314
+2023-01-22 17:01:11,371 - timeExecution - INFO - Processamento dati a 3h: 2.435761
+2023-01-22 17:01:11,371 - timeExecution - INFO - Processamento dati a 12h: 10.396766
+2023-01-22 17:01:11,371 - timeExecution - INFO - Processamento predizione: 2.941229
+2023-01-22 17:01:11,372 - timeExecution - INFO - Processamento metadati: 0.191026
+2023-01-22 17:07:34,370 - timeExecution - INFO - Processamento dati ad 1h: 0.985804
+2023-01-22 17:07:34,370 - timeExecution - INFO - Processamento dati ad 1h: 0.985804
+2023-01-22 17:07:34,373 - timeExecution - INFO - Processamento dati a 3h: 2.475620
+2023-01-22 17:07:34,373 - timeExecution - INFO - Processamento dati a 3h: 2.475620
+2023-01-22 17:07:34,373 - timeExecution - INFO - Processamento dati a 12h: 10.498499
+2023-01-22 17:07:34,373 - timeExecution - INFO - Processamento dati a 12h: 10.498499
+2023-01-22 17:07:34,373 - timeExecution - INFO - Processamento predizione: 3.135204
+2023-01-22 17:07:34,373 - timeExecution - INFO - Processamento predizione: 3.135204
+2023-01-22 17:07:34,373 - timeExecution - INFO - Processamento metadati: 0.245007
+2023-01-22 17:07:34,373 - timeExecution - INFO - Processamento metadati: 0.245007
+2023-01-22 17:09:09,254 - timeExecution - INFO - Processamento dati ad 1h: 0.917458
+2023-01-22 17:09:09,254 - timeExecution - INFO - Processamento dati ad 1h: 0.917458
+2023-01-22 17:09:09,254 - timeExecution - INFO - Processamento dati ad 1h: 0.917458
+2023-01-22 17:09:09,254 - timeExecution - INFO - Processamento dati a 3h: 2.418421
+2023-01-22 17:09:09,254 - timeExecution - INFO - Processamento dati a 3h: 2.418421
+2023-01-22 17:09:09,254 - timeExecution - INFO - Processamento dati a 3h: 2.418421
+2023-01-22 17:09:09,254 - timeExecution - INFO - Processamento dati a 12h: 9.462218
+2023-01-22 17:09:09,254 - timeExecution - INFO - Processamento dati a 12h: 9.462218
+2023-01-22 17:09:09,254 - timeExecution - INFO - Processamento dati a 12h: 9.462218
+2023-01-22 17:09:09,255 - timeExecution - INFO - Processamento predizione: 2.912627
+2023-01-22 17:09:09,255 - timeExecution - INFO - Processamento predizione: 2.912627
+2023-01-22 17:09:09,255 - timeExecution - INFO - Processamento predizione: 2.912627
+2023-01-22 17:09:09,255 - timeExecution - INFO - Processamento metadati: 0.274675
+2023-01-22 17:09:09,255 - timeExecution - INFO - Processamento metadati: 0.274675
+2023-01-22 17:09:09,255 - timeExecution - INFO - Processamento metadati: 0.274675

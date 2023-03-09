@@ -1,0 +1,24 @@
+confluent-kafka
+mysql-connector-python
+prometheus-api-client
+statsmodels
+scipy
+numpy
+patsy
+pandas
+matplotlib
+grpcio
+grpcio-tools
+protobuf
+protos
+#Librerie installate di default.
+#warnings
+#asyncio
+#python-time
+#ast
+#loggin
+#future
+#json
+#sys
+#DateTime
+#time

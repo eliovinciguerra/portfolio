@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package echo;
+
+service EchoService {
+  rpc takeAllMetrics(Request) returns (Reply) {}
+  rpc takeMetadata(Request) returns (Reply) {}
+  rpc takeValues(Request) returns (Reply) {}
+  rpc takePred(Request) returns (Reply) {}
+}
+
+// The request message containing the user's name.
+message Request {
+  string content = 1;
+}
+
+// The response message containing the greetings
+message Reply {
+  string content = 1;
+}
+
+
+//  repeated string list=1;   //Serve per fare le liste.
