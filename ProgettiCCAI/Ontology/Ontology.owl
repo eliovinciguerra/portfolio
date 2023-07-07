@@ -1,0 +1,1256 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/io/ontologies/2023/5/scuola"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/io/ontologies/2023/5/scuola">
+    <Prefix name="" IRI="http://www.semanticweb.org/io/ontologies/2023/5/scuola"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://xmlns.com/foaf/0.1/</Import>
+    <Declaration>
+        <Class IRI="http://schema.org/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Aula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Classe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/CodiceFiscale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Diurno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Genere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Geografia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Indirizzo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Insegnante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Italiano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Laboratorio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Matematica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Materia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Orario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Religione"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Serale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Storia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Studente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/appartieneAd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/codiceFiscaleDi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/formatoDa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/frequenta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/frequentatoDa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/haCodiceFiscale"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/haIscritto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/haOrario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/haSesso"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/insegna"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/insegnatoDa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/lavoraIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/lavoratoDa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/orarioDi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/ospita"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/sessoDi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/tenutaIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/èIscritto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/CodiceFiscale"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/Computer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/DataDiNascita"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/Diurno"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/Edificio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/Genere"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/Indirizzo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/Materia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/Nazionalità"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/NomeIndirizzo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/OreSettimanali"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/Piano"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/Posti"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Femmina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Geografia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Informatica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Italiano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Maschio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Matematica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Scientifico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Storia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://schema.org/Person"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="/haCodiceFiscale"/>
+                <Class IRI="/CodiceFiscale"/>
+            </ObjectAllValuesFrom>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="/haCodiceFiscale"/>
+                <Class IRI="/CodiceFiscale"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/Person"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="/haSesso"/>
+                <Class IRI="/Genere"/>
+            </ObjectAllValuesFrom>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="/haSesso"/>
+                <Class IRI="/Genere"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Aula"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Classe"/>
+        <Class IRI="/Aula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/CodiceFiscale"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Diurno"/>
+        <Class IRI="/Indirizzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Genere"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Geografia"/>
+        <Class IRI="/Materia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Indirizzo"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Insegnante"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Insegnante"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="/insegna"/>
+                <Class IRI="/Materia"/>
+            </ObjectAllValuesFrom>
+            <ObjectMaxCardinality cardinality="3">
+                <ObjectProperty IRI="/insegna"/>
+                <Class IRI="/Materia"/>
+            </ObjectMaxCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Italiano"/>
+        <Class IRI="/Materia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Laboratorio"/>
+        <Class IRI="/Aula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Matematica"/>
+        <Class IRI="/Materia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Materia"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Materia"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="/appartieneAd"/>
+                <Class IRI="/Indirizzo"/>
+            </ObjectAllValuesFrom>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="/appartieneAd"/>
+                <Class IRI="/Indirizzo"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Materia"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="/haOrario"/>
+                <Class IRI="/Orario"/>
+            </ObjectAllValuesFrom>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="/haOrario"/>
+                <Class IRI="/Orario"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Orario"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Religione"/>
+        <Class IRI="/Materia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Serale"/>
+        <Class IRI="/Indirizzo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Storia"/>
+        <Class IRI="/Materia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Studente"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Studente"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="/èIscritto"/>
+                <Class IRI="/Indirizzo"/>
+            </ObjectAllValuesFrom>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="/èIscritto"/>
+                <Class IRI="/Indirizzo"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="/Insegnante"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Studente"/>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Insegnante"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Genere"/>
+        <NamedIndividual IRI="/Femmina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/Genere"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="/Femmina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Studente"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Materia"/>
+        <NamedIndividual IRI="/Geografia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Diurno"/>
+        <NamedIndividual IRI="/Informatica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Indirizzo"/>
+        <NamedIndividual IRI="/Informatica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/NomeIndirizzo"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="/Informatica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Materia"/>
+        <NamedIndividual IRI="/Italiano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Insegnante"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Studente"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Studente"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Genere"/>
+        <NamedIndividual IRI="/Maschio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Materia"/>
+        <NamedIndividual IRI="/Matematica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Indirizzo"/>
+        <NamedIndividual IRI="/Scientifico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Serale"/>
+        <NamedIndividual IRI="/Scientifico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/NomeIndirizzo"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="/Scientifico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Materia"/>
+        <NamedIndividual IRI="/Storia"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Geografia"/>
+        <NamedIndividual IRI="/Italiano"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Geografia"/>
+        <NamedIndividual IRI="/Matematica"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Geografia"/>
+        <NamedIndividual IRI="/Storia"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Informatica"/>
+        <NamedIndividual IRI="/Scientifico"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Italiano"/>
+        <NamedIndividual IRI="/Matematica"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Italiano"/>
+        <NamedIndividual IRI="/Storia"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/Matematica"/>
+        <NamedIndividual IRI="/Storia"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/haSesso"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <NamedIndividual IRI="/Maschio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/insegna"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <NamedIndividual IRI="/Storia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/lavoraIn"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <NamedIndividual IRI="/Scientifico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/èIscritto"/>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+        <NamedIndividual IRI="/Informatica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/haSesso"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <NamedIndividual IRI="/Femmina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/insegna"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <NamedIndividual IRI="/Storia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/lavoraIn"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <NamedIndividual IRI="/Informatica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/sessoDi"/>
+        <NamedIndividual IRI="/Femmina"/>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/sessoDi"/>
+        <NamedIndividual IRI="/Femmina"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/sessoDi"/>
+        <NamedIndividual IRI="/Femmina"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/sessoDi"/>
+        <NamedIndividual IRI="/Femmina"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/sessoDi"/>
+        <NamedIndividual IRI="/Femmina"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/haSesso"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+        <NamedIndividual IRI="/Femmina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/èIscritto"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+        <NamedIndividual IRI="/Scientifico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/formatoDa"/>
+        <NamedIndividual IRI="/Informatica"/>
+        <NamedIndividual IRI="/Italiano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/haIscritto"/>
+        <NamedIndividual IRI="/Informatica"/>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/haIscritto"/>
+        <NamedIndividual IRI="/Informatica"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/haIscritto"/>
+        <NamedIndividual IRI="/Informatica"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/lavoratoDa"/>
+        <NamedIndividual IRI="/Informatica"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/lavoratoDa"/>
+        <NamedIndividual IRI="/Informatica"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/haSesso"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <NamedIndividual IRI="/Femmina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/insegna"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <NamedIndividual IRI="/Matematica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/lavoraIn"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <NamedIndividual IRI="/Informatica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/haSesso"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+        <NamedIndividual IRI="/Maschio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/èIscritto"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+        <NamedIndividual IRI="/Informatica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/èIscritto"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+        <NamedIndividual IRI="/Informatica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/sessoDi"/>
+        <NamedIndividual IRI="/Maschio"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/sessoDi"/>
+        <NamedIndividual IRI="/Maschio"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/insegnatoDa"/>
+        <NamedIndividual IRI="/Matematica"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/haIscritto"/>
+        <NamedIndividual IRI="/Scientifico"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/lavoratoDa"/>
+        <NamedIndividual IRI="/Scientifico"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/insegnatoDa"/>
+        <NamedIndividual IRI="/Storia"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DataDiNascita"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1980-01-01T08:20:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Genere"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <Literal>Maschio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Indirizzo"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <Literal>Scientifico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Materia"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <Literal>Storia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <Literal>Carletto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+        <NamedIndividual IRI="/Carletto_Blue"/>
+        <Literal>Blue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Diurno"/>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Genere"/>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+        <Literal>Femmina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Indirizzo"/>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+        <Literal>Informatica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+        <Literal>Carlotta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+        <NamedIndividual IRI="/Carlotta_Neri"/>
+        <Literal>Neri</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DataDiNascita"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1980-01-01T08:20:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Diurno"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Genere"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <Literal>Femmina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Indirizzo"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <Literal>Informatica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Materia"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <Literal>Storia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <Literal>Chiara</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+        <NamedIndividual IRI="/Chiara_Scura"/>
+        <Literal>Scura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/CodiceFiscale"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+        <Literal>BLLGNR07N53D340L</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Diurno"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Genere"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+        <Literal>Femmina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Indirizzo"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+        <Literal>Scientifico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+        <Literal>Gennara</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+        <NamedIndividual IRI="/Gennara_Bulla"/>
+        <Literal>Bulla</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/NomeIndirizzo"/>
+        <NamedIndividual IRI="/Informatica"/>
+        <Literal>Info</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/CodiceFiscale"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <Literal>LCULCN80A41C351L</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DataDiNascita"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1980-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Genere"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <Literal>Femmina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Indirizzo"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <Literal>Informatica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Materia"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <Literal>Matematica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <Literal>Luciana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+        <NamedIndividual IRI="/Luciana_Luce"/>
+        <Literal>Luce</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/CodiceFiscale"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+        <Literal>RSSMRA00A01C351W</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DataDiNascita"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2000-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Diurno"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Genere"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+        <Literal>Maschio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Indirizzo"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+        <Literal>Informatica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+        <Literal>Mario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+        <NamedIndividual IRI="/Mario_Rossi"/>
+        <Literal>Rossi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/CodiceFiscale"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+        <Literal>BCHMA5K7B11D359O</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Diurno"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Genere"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+        <Literal>Femmina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Indirizzo"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+        <Literal>Informatica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+        <Literal>Martina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+        <NamedIndividual IRI="/Martina_Bianchi"/>
+        <Literal>Bianchi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Diurno"/>
+        <NamedIndividual IRI="/Scientifico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/appartieneAd"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/codiceFiscaleDi"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/formatoDa"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/frequenta"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/frequentatoDa"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/haCodiceFiscale"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/haIscritto"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/haOrario"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/haSesso"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/insegna"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/insegnatoDa"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/lavoraIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/lavoratoDa"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/orarioDi"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/ospita"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/sessoDi"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/tenutaIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/èIscritto"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/appartieneAd"/>
+        <ObjectProperty IRI="/formatoDa"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/codiceFiscaleDi"/>
+        <ObjectProperty IRI="/haCodiceFiscale"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/frequenta"/>
+        <ObjectProperty IRI="/frequentatoDa"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/haIscritto"/>
+        <ObjectProperty IRI="/èIscritto"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/haOrario"/>
+        <ObjectProperty IRI="/orarioDi"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/haSesso"/>
+        <ObjectProperty IRI="/sessoDi"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/insegna"/>
+        <ObjectProperty IRI="/insegnatoDa"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/lavoraIn"/>
+        <ObjectProperty IRI="/lavoratoDa"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/ospita"/>
+        <ObjectProperty IRI="/tenutaIn"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/appartieneAd"/>
+        <Class IRI="/Materia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/frequenta"/>
+        <Class IRI="/Studente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/haCodiceFiscale"/>
+        <Class IRI="http://schema.org/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/haOrario"/>
+        <Class IRI="/Materia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/haSesso"/>
+        <Class IRI="http://schema.org/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/insegna"/>
+        <Class IRI="/Insegnante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/lavoraIn"/>
+        <Class IRI="/Insegnante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/tenutaIn"/>
+        <Class IRI="/Materia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/èIscritto"/>
+        <Class IRI="/Studente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/appartieneAd"/>
+        <Class IRI="/Indirizzo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/frequenta"/>
+        <Class IRI="/Materia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/haCodiceFiscale"/>
+        <Class IRI="/CodiceFiscale"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/haOrario"/>
+        <Class IRI="/Orario"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/haSesso"/>
+        <Class IRI="/Genere"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/insegna"/>
+        <Class IRI="/Materia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/lavoraIn"/>
+        <Class IRI="/Indirizzo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/tenutaIn"/>
+        <Class IRI="/Aula"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/èIscritto"/>
+        <Class IRI="/Indirizzo"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/CodiceFiscale"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/Computer"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/DataDiNascita"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/Diurno"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/Edificio"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/Genere"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/Indirizzo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/Nazionalità"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/NomeIndirizzo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/OreSettimanali"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/Piano"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/Posti"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="/CodiceFiscale"/>
+        <Class IRI="http://schema.org/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/Computer"/>
+        <Class IRI="/Aula"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/DataDiNascita"/>
+        <Class IRI="http://schema.org/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/Diurno"/>
+        <Class IRI="/Indirizzo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/Edificio"/>
+        <Class IRI="/Aula"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/Genere"/>
+        <Class IRI="http://schema.org/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/Indirizzo"/>
+        <Class IRI="/Indirizzo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/Nazionalità"/>
+        <Class IRI="http://schema.org/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/NomeIndirizzo"/>
+        <Class IRI="/Indirizzo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/OreSettimanali"/>
+        <Class IRI="/Materia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/Piano"/>
+        <Class IRI="/Aula"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/Posti"/>
+        <Class IRI="/Aula"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="/CodiceFiscale"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/Computer"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/DataDiNascita"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/Diurno"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/Edificio"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/Genere"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/Indirizzo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/Nazionalità"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/NomeIndirizzo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/OreSettimanali"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/Piano"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/Posti"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
